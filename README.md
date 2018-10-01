@@ -1,10 +1,13 @@
 library-sockets-kit
 ===================
 
-Library sockets kit based on C++ for implementing Windows-based TCP/IP socket applications.
+Library sockets kit based on C++ for implementing Windows-based TCP/IP socket application.
 
-The kit includes the following components: 
+The kit includes the following components:
 
-1) Server that echoes (receives and sends) messages sent from a client.
+* TCP/IP client that sends messages to a server.
 
-2) Client that sends messages to the server.
+* TCP/IP server that receives and returns messages sent by a client.
+
+* Thread-safe log file (which is used by the TCP/IP server to trace socket activity and error conditions).
+
