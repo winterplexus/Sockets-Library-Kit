@@ -1,7 +1,7 @@
 library-sockets-kit
 ===================
 
-Library sockets kit based on C++ for implementing Windows-based TCP/IP socket application.
+Sockets library kit based on C++ for implementing Windows-based TCP/IP socket application.
 
 The kit includes the following components:
 
